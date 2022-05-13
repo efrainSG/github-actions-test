@@ -1,3 +1,5 @@
+# Secrets
+First of all must create an environment for the secrets, after it's possible add new secrets.
 # YAML sintax
 key: value
 key2: value2
