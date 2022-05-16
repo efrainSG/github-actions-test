@@ -1,6 +1,7 @@
 # Secrets
 First of all must create an environment for the secrets, after it's possible add new secrets.
 # YAML sintax
+<pre>
 key: value
 key2: value2
 key3:
@@ -30,3 +31,4 @@ longText2: |
     Aenean massa.
     Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
     Donec qu...
+</pre>
