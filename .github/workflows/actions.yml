@@ -2,6 +2,20 @@ name: Actions Workflow
 
 on:
   push:
+    branches:
+      - master
+      - 'feature/*'
+    branches-ignore:
+      - documentation
+    tags:
+      - mi_tag
+    paths:
+      - '**.js'
+      
+  #schedule:
+    #- cron: "0/5 * * * *"
+    # min hr day month day-of-week
+  #push:
   pull_request:
    types: [closed, assigned, opened, reopened]
 
